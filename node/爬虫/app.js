@@ -2,14 +2,16 @@
 // 图片地址放在img.txt,拿迅雷批量下载
 var request = require('request');
 const fs = require('fs');
-let id = '4251992165887811';
-let mid = '4251992165887811';
+let id = '4271901574402526';
+// let id = '4251992165887811';
+let mid = '4271901574402526';
+// let mid = '4251992165887811';
 let max_id = '';
 var targetOptions = {
   method: 'GET',
   timeout: 8000,
   encoding: null,
-  // proxy: 'http://127.0.0.1:8087',
+  proxy: 'http://127.0.0.1:8087',
   rejectUnauthorized: false
 };
 
